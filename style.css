@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ecf2f8;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#testimonial-grid-container{
+    padding: 5% 3%;
+}
+
+
+
+#testimonial-1{
+    background-color: #7541c8;
+    color: #ffffff;
+    order: 1;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+#testimonial-2{
+    background-color: #48556a;
+    color: #ffffff;
+    order: 2;
+    border-radius: 10px;
+}
+
+#testimonial-3{
+    background-color: #ffffff;
+    order: 3;
+    border-radius: 10px;
+}
+
+#testimonial-4{
+    background-color: #19212e;
+    color: #ffffff;
+    order: 4;
+    border-radius: 10px;
+}
+
+#testimonial-5{
+    background-color: #ffffff;
+    order: 5;
+    border-radius: 10px;
+}
+
+.grid-item{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.testifier-container{
+    display: flex;
+}
+
+.testifier-container img{
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+h2{
+    margin: 15px 0;
+    position: relative;
+
+}
+
+.testifier-job{
+    opacity: 0.5;
+}
+
+.comment{
+    opacity: 0.7;
+}
+
+#testimonial-3, #testimonial-5{
+    color: #48556a;
+}
+
+#quote{
+    position: absolute;
+    right: 12%;
+    
+   
+}
+
+.attribution{
+    text-align: center;
+}
+
+
+
+@media (min-width: 576px){
+    #testimonial-grid-container{
+        display: flex;
+    }
+
+    #testimonials-1to2-container{
+        display: flex;
+        margin-right: 10px;
+    }
+
+    #testimonials-3to4-container{
+        display: flex;
+        
+    }
+
+    #testimonial-1{
+        flex-basis: 70%;
+        
+    }
+
+    #testimonial-2{
+        flex-basis: 30%;
+        
+    }
+
+    #testimonial-3{
+        flex-basis: 30%;
+        
+    }
+
+    #testimonial-4{
+        flex-basis: 70%;
+        
+    }
+
+    #testimonials-1to4-container{
+        flex-basis: 70%;
+    }
+
+    #testimonial-5{
+        flex-basis: 30%;
+    }
+
+    #testimonials-1to2-container, #testimonials-3to4-container, 
+    #testimonial-1, #testimonial-3 {
+        margin-right: 10px;
+    }
+}
